@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de dias</title>
+</head>
+<body>
+    <form onsubmit="calcular(event)">
+    <label>
+        Data inicial:
+        <input type="date" id="data1" required />
+    </label>
+    <br><br>
+
+    <label>
+        Data final:
+        <input type="date" id="data2" required />
+    </label>
+
+    <p><button type="submit">Calcular</button></p>
+    </form>
+
+    <h2 id="resultado"></h2>
+
+<script src="script/script-calculate.jsx"></script>
+
+</body>
+</html>
